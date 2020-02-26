@@ -69,6 +69,8 @@ function draw() {
   pop();
 
   point(1, 1)
+
+  // SOME EARLY CODE FOR DESIGN CLOCK //
   // //Min
   // strokeWeight(4)
   // stroke(200)

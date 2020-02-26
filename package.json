@@ -1,0 +1,22 @@
+{
+  "name": "clock-programm",
+  "version": "1.0.0",
+  "description": "Clock\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dmy\u001b[C\u001bMyClock",
+  "main": "p5.dom.min.js",
+  "homepage": "https://sofiane-bekkari.github.io/Clock-analog-digital.git",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sofiane-Bekkari/Clock-analog-digital.git"
+  },
+  "author": "Sofiane Bekkari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sofiane-Bekkari/Clock-analog-digital/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
