@@ -2,10 +2,11 @@
 function setup() {
   createCanvas(500, 500);
   angleMode(DEGREES);
+
 }
 
 function draw() {
-  background(0);
+  background(0, 10, 50, 15);
   translate(150, 200);
   rotate(-90);
   let hur = hour();
@@ -19,12 +20,12 @@ function draw() {
   // Use condition to check if it under 10s
   if (x < 10) {
     sec = x;
-    console.log(x);
+
   }
   // Separet //
   if (y < 10) {
     min = y;
-    console.log(y);
+
   }
 
   function digitalClock() {
@@ -32,8 +33,8 @@ function draw() {
     stroke(200, 20, 80, 240);
     rotate(90);
     strokeWeight(4);
-    textSize(45);
-    text(hur + ' : ' + min + ' : ' + sec, 55, 0)
+    textSize(42);
+    text(hur + ' : ' + min + ' : ' + sec, 65, 0);
   }
   digitalClock();
 
@@ -49,7 +50,7 @@ function draw() {
 
   push();
   rotate(secAngle);
-  fill(200, 150, 100);
+  fill(200, 150, 100, 150);
   stroke(50, 50, 100, 200);
   line(0, 0, 55, 0);
   pop();
@@ -70,17 +71,4 @@ function draw() {
 
   point(1, 1)
 
-  // SOME EARLY CODE FOR DESIGN CLOCK //
-  // //Min
-  // strokeWeight(4)
-  // stroke(200)
-  // line(150, -secAngle, 200, 150);
-  // // SEC
-  // noFill()
-  // stroke(150, 45, 50)
-  // ellipse(200, 150, sec + 0);
-  // // NEW ELLIPSE
-  // noFill()
-  // stroke(150, 45, 150)
-  // ellipse(250, 160, 340, 340);
 }

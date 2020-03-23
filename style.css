@@ -1,18 +1,46 @@
 html, body {
+  background: rgb(0, 9, 44);
+  height: 80vh;
+  width: 100%;
   padding:0;
   margin: 0;
   color:#ccc;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #000;
+  font-family: 'Spartan', sans-serif;
+  /*background: #000;*/
+  position: relative;
  }
  h1 {
    border-bottom: solid 2px;
    margin-top: 2rem;
+   font-size: 1.8rem;
+   font-weight: bolder;
+   text-transform: uppercase;
    letter-spacing: 2px;
    text-align: center;
-   color:  rgba(55, 92, 214, 0.582);
+   color:  rgb(9, 80, 128);
+ }
+ .text-col {
+   color: rgba(200, 20, 80, 0.705);
  }
 canvas {
   margin: 0 auto;
   display: block;
+}
+#footer , #greeting {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+#greeting {
+  height: 10vh;
+  bottom: 50px;
+}
+h2 {
+
+}
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  padding-top: 1rem;
 }
